@@ -65,11 +65,17 @@ pip install biopython pandas tqdm
 🧩 **Project Structure**
 
 pubmed-fetcher/
+
 ├── src/
+
 │   └── fetch_pubmed.py
+
 ├── data/
+
 │   └── pubmed_results.csv
+
 ├── requirements.txt
+
 └── README.md
 
 📄 License
@@ -79,4 +85,5 @@ This project is licensed under the MIT License
 👩‍🔬 Author
 
 Aarti Nagpal
+
 📧 aarti96028@gmail.com
