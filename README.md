@@ -17,7 +17,7 @@ Use it to retrieve biomedical literature on *any* topic — from cancer research
 💻 Usage
 
 1️⃣Install dependencies
-```bash
+
 pip install -r requirements.txt
 
 2️⃣ Run the script
