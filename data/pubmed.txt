@@ -1,0 +1,51 @@
+
+## 📊 Example Results
+
+After running the script with the query:
+The following CSV file was generated: 
+
+
+🔍 Searching PubMed for: 'Machine learning in biology'
+📊 Found 30321 total results. Fetching top 10...
+
+✅ 10 articles fetched successfully!
+💾 Results saved to: data/pubmed_results.csv
+
+        PMID                                              Title  \
+0  41131427  Systemic Metabolic Alterations After Aneurysma...   
+1  41131122  Optimizing YOLOv11 for automated classificatio...   
+2  41130534  Aging as an active player in Alzheimer's Disea...   
+3  41130470  Sustainable biopolymer-based materials for oil...   
+4  41130324  Comparing Human Annotation and Machine Learnin...   
+
+                                             Authors  \
+0  Yang Bosco Seong Kyu; Savarraj Jude P J; Chen ...   
+1     Abd El-Hafeez Tarek; Tarek Mohamed; Sayed Awny   
+2  Condado Jorge Garcia; Recuero Ines Verdugo; El...   
+3  Elgarahy Ahmed M; Eloffy Manal G; Arunkumar Pr...   
+4  Fontana Barbara D; Pretzel Camilla W; Müller M...   
+
+                                            Abstract  
+0  Aneurysmal subarachnoid hemorrhage (aSAH) caus...  
+1  Breast cancer diagnosis via histopathology ima...  
+2  BrainAge models estimate the biological age of...  
+3  Climate change and environmental degradation h...  
+4  Accurate and scalable behavioral annotation re...  
+
+## 🧠 Output File Structure
+
+| Column | Description |
+|--------|--------------|
+| **PMID** | PubMed unique identifier for the article |
+| **Title** | Title of the research paper |
+| **Authors** | List of contributing authors |
+| **Abstract** | The abstract text fetched from PubMed |
+
+---
+
+## 📈 How You Can Use It
+
+- Import the CSV into a **machine learning pipeline** for text classification  
+- Use abstracts as input for **BioBERT / SciBERT** fine-tuning  
+- Combine with **NER (Named Entity Recognition)** for biological entity extraction  
+- Analyze publication trends or keyword frequencies  
